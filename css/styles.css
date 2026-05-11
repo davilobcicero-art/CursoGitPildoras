@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'brandom-grotesque';
+    src: url('../fonts/brandon-grotesque-light-58a8a4b38001d.otf');
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'brandom-grotesque';
+    
+}
+
+header {
+    height: 500px;
+    background-image: url("https://netbeans.apache.org/_/images/hero-background.jpg");
+    
+    color: lightyellow;
+}
+
+.logo {
+    float: left;
+    margin-top: 25px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.logo span {
+    font-weight: 100;
+}
+
+.navegacion {
+    float: right;
+    margin-top: 25px;
+    margin-right: 80px;
+}
+
+.links li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-contenedor {}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 3rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 30%;
+    margin: 20px auto;
+    line-height: 2.5rem;
+}
+
+.contenedor-botones {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.boton {
+    padding: 3px 20px;
+    background-color: rgba(190, 70, 60, 0.5);
+    border-radius: 20px;
+}
+
+.boton-info {
+    border: 0;
+    color: rgba(122, 240, 131, 0.5);
+    padding: 10px 40px;
+}
+
